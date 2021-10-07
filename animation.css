@@ -1,0 +1,38 @@
+:root {
+    --blue: steelblue;
+    --red: firebrick;
+    --green: mediumseagreen;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    transition: transform 0.5s;
+}
